@@ -12,12 +12,12 @@ import {
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCfTJxRHNitrt4NDa-8gyqMPN0bCZnDG0U",
-  authDomain: "basedatos-prueba-fd1ea.firebaseapp.com",
-  projectId: "basedatos-prueba-fd1ea",
-  storageBucket: "basedatos-prueba-fd1ea.appspot.com",
-  messagingSenderId: "810566598790",
-  appId: "1:810566598790:web:90b3cef74f702e854f1107",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
 };
 
 // Initialize Firebase
